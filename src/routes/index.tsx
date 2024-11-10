@@ -1,10 +1,11 @@
 import { Title } from "@solidjs/meta";
-import Counter from "~/components/Counter";
+import { Drawer } from "~/components/Drawer";
 
 export default function Home() {
   return (
     <main>
       <Title>Hello World</Title>
+      <Drawer />
       <h1 class="text-3xl font-bold underline">
         Hello world!
       </h1>
