@@ -3,20 +3,27 @@ import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
 import "./app.css";
+import { Menu } from "./components/Menu";
 
 export default function App() {
-  return (
-    <Router
-      root={props => (
-        <MetaProvider>
-          <Title>SolidStart - Basic</Title>
-          <a href="/">Index</a>
-          <a href="/about">About</a>
-          <Suspense>{props.children}</Suspense>
-        </MetaProvider>
-      )}
-    >
-      <FileRoutes />
-    </Router>
-  );
+	return (
+		<Router
+			root={(props) => (
+				<MetaProvider>
+					<Title>SolidStart - Basic</Title>
+
+					<div class="flex min-h-screen">
+						<aside class="hidden md:block w-[250px]">
+							<Menu />
+						</aside>
+						<Suspense>
+							<main class="flex-1">{props.children}</main>
+						</Suspense>
+					</div>
+				</MetaProvider>
+			)}
+		>
+			<FileRoutes />
+		</Router>
+	);
 }
