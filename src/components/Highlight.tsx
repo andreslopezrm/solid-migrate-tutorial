@@ -34,7 +34,10 @@ export function Highlight({ code }: Props) {
 				<code class="language-ts">{code}</code>
 			</pre>
 			<button class="absolute top-4 right-4" onclick={copyCode}>
-				<Show when={copied()} fallback={<img src="/images/copy.png" width={20} height={20} />}>
+				<Show
+					when={copied()}
+					fallback={<img src="/images/copy.png" width={20} height={20} />}
+				>
 					<img src="/images/success.png" width={20} height={20} />
 				</Show>
 			</button>
