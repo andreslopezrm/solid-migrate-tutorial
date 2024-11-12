@@ -1,4 +1,5 @@
 import { createSignal, Match, Switch } from "solid-js";
+import { ButtonNav } from "~/components/ButtonNav";
 import { Highlight } from "~/components/Highlight";
 import { LibrarySelect } from "~/components/LibrarySelect";
 import { MainTitle } from "~/components/MainTitle";
@@ -61,6 +62,7 @@ export default function Signals() {
 					</Match>
 				</Switch>
 			</div>
+			<ButtonNav href="/tutorial/intro/effects" text="Effects" />
 		</main>
 	);
 }

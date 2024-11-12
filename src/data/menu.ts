@@ -13,6 +13,11 @@ export const menus = [
 				title: "State",
 				path: "state",
 			},
+			{
+				key: 3,
+				title: "Effects",
+				path: "effects",
+			},
 		],
 	},
 	{
