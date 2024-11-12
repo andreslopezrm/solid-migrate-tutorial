@@ -10,7 +10,7 @@ export default function App() {
 		<Router
 			root={(props) => (
 				<MetaProvider>
-					<Title>SolidStart - Basic</Title>
+					<Title>Solid Migration</Title>
 
 					<div class="flex min-h-screen">
 						<aside class="hidden md:block w-[250px]">

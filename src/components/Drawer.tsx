@@ -28,13 +28,17 @@ export function Drawer() {
 			</button>
 
 			<div
-				class={`md:hidden fixed inset-y-0 left-0 w-64 bg-white shadow-xl transform ${isOpen() ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300`}
+				class="md:hidden z-10 fixed inset-y-0 left-0 w-64 bg-white shadow-xl transform transition-transform duration-300"
+				classList={{
+					"translate-x-0": isOpen(),
+					"-translate-x-full": !isOpen(),
+				}}
 			>
 				<button
-					class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-2"
+					class="text-white font-bold py-2 px-4 rounded mt-2"
 					onClick={() => setIsOpen(false)}
 				>
-					Close
+					<img src="/images/close.png" width={30} height={30} alt="close" />
 				</button>
 				<Menu />
 			</div>

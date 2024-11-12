@@ -68,7 +68,7 @@ export default function Home() {
 				</p>
 			</div>
 
-			<ButtonNav href="/props" text="Props" />
+			<ButtonNav href="/tutorial/intro/props" text="Props" />
 		</main>
 	);
 }
