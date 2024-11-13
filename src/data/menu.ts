@@ -18,6 +18,11 @@ export const menus = [
 				title: "Effects",
 				path: "effects",
 			},
+			{
+				key: 4,
+				title: "Derived",
+				path: "derived",
+			},
 		],
 	},
 	{
@@ -26,8 +31,45 @@ export const menus = [
 		items: [
 			{
 				key: 1,
-				title: "Conditionals",
-				path: "conditionals",
+				title: "Show",
+				path: "show",
+			},
+			{
+				key: 3,
+				title: "For",
+				path: "for",
+			},
+			{
+				key: 3,
+				title: "Switch",
+				path: "switch",
+			},
+		],
+	},
+	{
+		title: "Life Cycle",
+		path: "life-cycle",
+		items: [
+			{
+				key: 1,
+				title: "Mount",
+				path: "mount",
+			},
+			{
+				key: 2,
+				title: "Cleanup",
+				path: "cleanup",
+			},
+		],
+	},
+	{
+		title: "Async",
+		path: "async",
+		items: [
+			{
+				key: 1,
+				title: "Resource",
+				path: "resource",
 			},
 		],
 	},

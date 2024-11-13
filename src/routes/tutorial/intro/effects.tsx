@@ -23,14 +23,14 @@ export default function Effects() {
 				<MainTitle text="Effects" />
 				<p class="mt-8 mb-5">
 					In SolidJS, effects are used to run side effects in response to
-					reactive state changes. SolidJS is a reactive UI library that
-					emphasizes fine-grained reactivity, updating the DOM with minimal
-					overhead.
+					reactive state changes. <strong>SolidJS</strong> is a reactive UI
+					library that emphasizes fine-grained reactivity, updating the DOM with
+					minimal overhead.
 				</p>
 				<p class="mb-5">
-					The core concept behind effects in SolidJS is that they are
-					automatically activated when any piece of state they depend on
-					changes. This means that effects track dependencies implicitly, and
+					The core concept behind effects in <strong>SolidJS</strong> is that
+					they are automatically activated when any piece of state they depend
+					on changes. This means that effects track dependencies implicitly, and
 					when those dependencies update, the effect function re-runs to reflect
 					new state.
 				</p>
