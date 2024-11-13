@@ -8,7 +8,7 @@ export default function Home() {
 			<Title>Solid Migration</Title>
 
 			<div class="p-5 md:p-8">
-				<MainTitle text="Migration" />
+				<MainTitle text="Solid Migration" />
 
 				<p class="mt-6 mb-5">
 					In the world of front-end development, choosing JavaScript libraries
@@ -65,6 +65,11 @@ export default function Home() {
 				<p class="mb-5">
 					Let's begin the adventure towards a more agile and modern development
 					experience with <strong>SolidJS!</strong>
+				</p>
+
+				<p class="mb-5">
+					Tutorial made with Solid Start with <strong>static</strong>{" "}
+					generation.
 				</p>
 			</div>
 

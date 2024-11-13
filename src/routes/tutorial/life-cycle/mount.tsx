@@ -22,11 +22,14 @@ export default function Mount() {
 			<div class="p-5 md:p-8">
 				<MainTitle text="Mount" />
 				<p class="mt-8 mb-5">
-					In Solid.js, the For component is an efficient and reactive way to
-					iterate over an array of data and render elements, similar to how it's
-					done in libraries like React or Vue, but with a more optimized and
-					reactive approach. For is part of Solid's API, and it facilitates
-					efficient list rendering while maintaining Solid's reactive system.
+					In SolidJS, the onMount function is a lifecycle hook that is called{" "}
+					<strong>once</strong> after the component has been added to the DOM.
+				</p>
+				<p class="mb-5">
+					This hook is typically used for running code that interacts with
+					external systems, such as fetching data from APIs, setting up event
+					listeners, or initializing libraries after the component has been
+					mounted to the DOM.
 				</p>
 				<Highlight code={mount.solid} />
 				<div class="mt-5 mb-5 flex justify-between items-center">

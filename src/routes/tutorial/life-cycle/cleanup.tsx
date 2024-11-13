@@ -20,13 +20,16 @@ export default function Cleanup() {
 	return (
 		<main>
 			<div class="p-5 md:p-8">
-				<MainTitle text="Mount" />
+				<MainTitle text="Cleanup" />
 				<p class="mt-8 mb-5">
-					In Solid.js, the For component is an efficient and reactive way to
-					iterate over an array of data and render elements, similar to how it's
-					done in libraries like React or Vue, but with a more optimized and
-					reactive approach. For is part of Solid's API, and it facilitates
-					efficient list rendering while maintaining Solid's reactive system.
+					In SolidJS, the <strong>onCleanup</strong> function is a lifecycle
+					hook that is used to clean up resources when a component is destroyed
+					or when certain reactive effects are no longer needed.
+				</p>
+				<p class="mb-5">
+					It’s used to clean up any side effects, such as cancelling API
+					requests, stopping intervals or timeouts, or removing event listeners
+					that were set up during the component's lifecycle.
 				</p>
 				<Highlight code={cleanup.solid} />
 				<div class="mt-5 mb-5 flex justify-between items-center">

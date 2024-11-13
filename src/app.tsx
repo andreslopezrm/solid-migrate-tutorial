@@ -11,7 +11,6 @@ export default function App() {
 			root={(props) => (
 				<MetaProvider>
 					<Title>Solid Migration</Title>
-
 					<div class="flex min-h-screen">
 						<aside class="hidden md:block w-[250px]">
 							<Menu />

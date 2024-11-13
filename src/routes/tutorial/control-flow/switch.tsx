@@ -20,16 +20,14 @@ export default function SwitchConditional() {
 	return (
 		<main>
 			<div class="p-5 md:p-8">
-				<MainTitle text="Show" />
+				<MainTitle text="Switch" />
 				<p class="mt-8 mb-5">
-					The Show component in SolidJS is used to conditionally render content
-					in the user interface. It allows you to display child nodes based on a
-					boolean condition. When the condition is true, it shows the defined
-					content; otherwise, it can display alternate content or nothing at
-					all. It's particularly useful for managing the reactive rendering of
-					components or elements based on dynamic states. <strong>Show</strong>{" "}
-					is more readable and maintainable compared to more complex ternary or
-					logical expressions within JSX.
+					In SolidJS, the Switch component is used for conditional rendering,
+					similar to how a switch statement works in JavaScript. It allows you
+					to render different content based on which condition matches a given
+					value. The <strong>Switch</strong> component works together with the
+					Match component to display the content for the specific condition that
+					is met.
 				</p>
 				<Highlight code={switchConditional.solid} />
 				<div class="mt-5 mb-5 flex justify-between items-center">

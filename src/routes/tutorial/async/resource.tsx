@@ -21,11 +21,11 @@ export default function Resource() {
 			<div class="p-5 md:p-8 mb-16">
 				<MainTitle text="Resource" />
 				<p class="mt-8 mb-5">
-					In Solid.js, the For component is an efficient and reactive way to
-					iterate over an array of data and render elements, similar to how it's
-					done in libraries like React or Vue, but with a more optimized and
-					reactive approach. For is part of Solid's API, and it facilitates
-					efficient list rendering while maintaining Solid's reactive system.
+					In SolidJS, <strong>createResource</strong> is a reactive primitive
+					designed for handling asynchronous data or side effects that need to
+					be fetched or computed outside of the usual reactivity flow, such as
+					loading data from an API, performing calculations, or working with
+					external systems.
 				</p>
 				<Highlight code={resource.solid} />
 				<div class="mt-5 mb-5 flex justify-between items-center">
