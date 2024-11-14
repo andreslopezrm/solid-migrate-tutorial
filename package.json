@@ -1,6 +1,7 @@
 {
-  "name": "example-basic",
+  "name": "solid-migrate-tutorial",
   "type": "module",
+  "author": "Andres Lopez Romero",
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
